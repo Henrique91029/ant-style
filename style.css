@@ -68,13 +68,6 @@ header p {
     color: #ccc;
 }
 
-#visitas{
-    margin-top: 10px;
-    color: #FF0000;
-    font-size: 1rem;
-    font-weight: 600;
-    text-shadow: 0 0 10px rgba(255,0,0,.5);
-}
 
 .container {
     text-align: center;
