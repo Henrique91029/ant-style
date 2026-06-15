@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/1000008707-photoaidcom-cropped.jpg.png">
+    <link rel="stylesheet" href="style.css">
+    <title>ANT STYLE</title>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="img/file_000000003f0871f588b1fa3ccef78eca.webp" class="logo">
+
+        <h1>ANT STYLE</h1>
+
+        <p>Comunidade Roblox • Drift • Scripts • Gravações</p>
+
+        <p id="visitas"></p>
+
+    </header>
+
+    <div class="container">
+
+        <div id="homePage">
+
+            <div class="card">
+                <h2 class="title-context">Sobre a Comunidade</h2>
+
+                <p>
+                    Bem-vindo à ANT STYLE.
+                    Uma comunidade focada em Car Dealership Tycoon,
+                    drift, gravações, liverys e diversão.
+                </p>
+
+            </div>
+
+            <div class="botoes">
+
+                <button class="btn" onclick="abrirScripts()">
+                    📜 Scripts
+                </button>
+
+                <a class="btn" href="https://discord.gg/B49AMpSrfd" target="_blank">
+                    🎮 Discord
+                </a>
+
+                <a class="btn" href="https://www.roblox.com/share/g/402594251" target="_blank">
+                    🏆 Comunidade Roblox
+                </a>
+
+                <a class="btn" href="https://www.tiktok.com/@antipathico01" target="_blank">
+                    🎵 TikTok
+                </a>
+
+            </div>
+
+        </div>
+
+        <div id="scriptsPage">
+
+            <h2 style="margin-bottom:20px;color:#FF0000;">
+                Scripts ANT STYLE
+            </h2>
+
+            <div class="script">
+                <h2>Drift</h2>
+                <pre
+                    id="drift">loadstring(game:HttpGet("https://raw.githubusercontent.com/profissionalxd/ANT-STYLE-Y00K-DRIFT/refs/heads/main/ANT%20STYLE%20SCRIPT%20LUA%20OBFUSCATOR.lua"))()</pre>
+                <button class="copy" onclick="copiar('drift')">Copiar</button>
+            </div>
+
+            <div class="script">
+                <h2>Aimbot de Gravação</h2>
+                <pre
+                    id="aimbot">loadstring(game:HttpGet("https://raw.githubusercontent.com/noobpro1235/Teste2/refs/heads/main/README.md",true))()</pre>
+                <button class="copy" onclick="copiar('aimbot')">Copiar</button>
+            </div>
+
+            <div class="script">
+                <h2>Free Cam</h2>
+                <pre
+                    id="freecam">loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Freecam-36350"))()</pre>
+                <button class="copy" onclick="copiar('freecam')">Copiar</button>
+            </div>
+
+            <div class="script">
+                <h2>Livery</h2>
+                <pre
+                    id="livery">loadstring(game:HttpGet('https://raw.githubusercontent.com/profissionalxd/Liverys-cdt/refs/heads/main/liverys.txt'))()</pre>
+                <button class="copy" onclick="copiar('livery')">Copiar</button>
+            </div>
+
+            <div class="script">
+                <h2>Infinity Yield</h2>
+                <pre
+                    id="yield">loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()</pre>
+                <button class="copy" onclick="copiar('yield')">Copiar</button>
+            </div>
+
+            <div class="script">
+                <h2>Emotes</h2>
+                <pre
+                    id="emotes">loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-EMOTES-FREE-205359"))()</pre>
+                <button class="copy" onclick="copiar('emotes')">Copiar</button>
+            </div>
+
+            <div class="script">
+                <h2>Light Stance</h2>
+                <pre
+                    id="lightstance">loadstring(game:HttpGet("https://raw.githubusercontent.com/profissionalxd/Light-Stance-Style/refs/heads/main/Light%20stance.lua"))()</pre>
+                <button class="copy" onclick="copiar('lightstance', this)">Copiar</button>
+            </div>
+
+            <div class="script">
+                <h2>Camber Heart</h2>
+                <pre
+                    id="camberheart">loadstring(game:HttpGet("https://raw.githubusercontent.com/profissionalxd/Camber-Style/refs/heads/main/Camber%20Heart.lua"))()</pre>
+                <button class="copy" onclick="copiar('camberheart', this)">Copiar</button>
+            </div>
+
+            <div class="script">
+                <h2>Setas Style</h2>
+                <pre
+                    id="setasstyle">loadstring(game:HttpGet("https://raw.githubusercontent.com/profissionalxd/Setas-Style/refs/heads/main/Setas.lua"))()</pre>
+                <button class="copy" onclick="copiar('setasstyle', this)">Copiar</button>
+            </div>
+
+            <button class="btn" onclick="voltarHome()">
+                ⬅ Voltar
+            </button>
+
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 ANT STYLE • Todos os direitos reservados
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
