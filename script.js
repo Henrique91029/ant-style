@@ -27,14 +27,3 @@ setTimeout(() => {
 }, 2000);
 }
 
-
-fetch("https://api.countapi.xyz/hit/antstyle/site")
-.then(response => response.json())
-.then(data => {
-    document.getElementById("visitas").innerText =
-        `👥 ${data.value} visitas no site`;
-})
-.catch(() => {
-    document.getElementById("visitas").innerText =
-        "👥 Contador indisponível";
-});
